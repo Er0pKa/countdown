@@ -1,0 +1,57 @@
+.col {
+  width: 80px;
+  order: 0;
+  float: grow 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+}
+.lil_gap {
+  width: 47px;
+}
+.big_gap {
+  width: 122px;
+}
+.wat_gap {
+  width: 102px;
+}
+.lil_wat_gap {
+  width: 36px;
+}
+.grid-pad {
+  padding: 20px 0 20px 20px;
+  float: left;
+  background-image: url(pics/big_background.png);
+  background-size: 100% auto;;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  width: 1600px;
+  height: 900px;
+} 
+.grid {     
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-end;
+  position: absolute;
+  top: 577px;
+  left: 245px;
+}
+.form {
+  font-size: 5.2em;
+  display: flex;
+  color: darkgrey;
+}
+input, button {
+  color: darkgrey;
+  background-color: black;
+  font-size: 1em;
+}
+img {
+  width: 100%;
+}
+body, input, button {
+  background-color: dimgray;
+}
